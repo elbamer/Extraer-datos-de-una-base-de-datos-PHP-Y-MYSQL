@@ -16,6 +16,10 @@ table{margin: 0% 15%;}
 .prueba{
   background-color: teal
 }
-.nombre{
-  background-color: black;
+.nombre{font-size: 1.3em;
+  background-color: gray;
 }
+.cabecera{background-color: grey}
+hr{background-color: black;
+  width: 60%;
+box-shadow: 2px 2px 2px 2px black}

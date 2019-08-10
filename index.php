@@ -19,11 +19,11 @@ $conexion->set_charset("utf8");
     <h1>Mostrando los datos de una base de datos</h1>
     <table>
         <tr>
-            <th>DNI</th>
-            <th>NOMBRE</th>
-            <th>POBLACION</th>
-            <th>DIRECCION</th>
-            <th>TELEFONO</th>
+            <th class="cabecera"><h1>DNI</h1></th>
+            <th class="cabecera"><h1>NOMBRE</h1></th>
+            <th class="cabecera"><h1>POBLACION</h1></th>
+            <th class="cabecera"><h1>DIRECCION</h1></th>
+            <th class="cabecera"><h1>TELEFONO</h1></th>
         </tr>
         <tr>
             <?php
@@ -43,6 +43,7 @@ $conexion->set_charset("utf8");
                 <td><?php echo $mostrar['POBLA'] ?></td>
                 <td><?php echo $mostrar['TELEF'] ?></td>
             </tr>
+        
 
             <?php
 
@@ -57,10 +58,10 @@ $conexion->set_charset("utf8");
         ?>
 
     </table>
-    <h1 class="prueba">Prueba</h1>
+   <!-- <h1 class="prueba">Prueba</h1>-->
     <table>
         <tr>
-            <th class="nombre">NOMBRE</th>
+            <th class="nombre"><h2>El ganador es:<h2>  </th>
 
         </tr>
 
@@ -71,7 +72,7 @@ $conexion->set_charset("utf8");
         // for($i=0;$i<$lista_alumnos;$i++){     
         while ($mostrar = mysqli_fetch_array($result)) {
             ?>
-
+<hr>
             <tr>
                 <td><?php echo $mostrar['APENOM'] ?></td>
             </tr>   
