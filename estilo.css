@@ -5,17 +5,17 @@ body{ background-color: rgb(246, 253, 205);
 
 }
 h1{
-  text-align: center
+  text-align: center; 
+  
 }
-
-
 tr:nth-child(n){
-    background-color: #d19494;
-    
+    background-color: #d19494;   
 }
 td{padding: 1%}
-
-table{margin: 0% 15%;
-
-
+table{margin: 0% 15%;}
+.prueba{
+  background-color: teal
+}
+.nombre{
+  background-color: black;
 }
