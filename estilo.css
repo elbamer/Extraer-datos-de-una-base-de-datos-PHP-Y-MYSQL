@@ -2,11 +2,9 @@ body{ background-color: rgb(246, 253, 205);
     display: flex;
       justify-content: center;
       flex-direction: column
-
 }
 h1{
-  text-align: center; 
-  
+  text-align: center;   
 }
 tr:nth-child(n){
     background-color: #d19494;   
